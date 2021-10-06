@@ -1,5 +1,5 @@
 {
-  "homepage": "http://Anushasetti.github.io/amazon-demo-react",
+  "homepage": "http://Anushasetti.github.io/amazonclone",
   "name": "amazon-clone",
   "version": "0.1.0",
   "private": true,
@@ -24,7 +24,6 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
-    
   },
   "eslintConfig": {
     "extends": [

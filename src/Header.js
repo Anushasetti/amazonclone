@@ -7,7 +7,7 @@ import { useStateValue } from "./StateProvider";
 import { auth } from "./firebase";
 
 function Header() {
-  const [{ basket, user }, dispatch] = useStateValue();
+  const [{ basket, user }] = useStateValue();
 
   const handleAuthenticaton = () => {
     if (user) {
@@ -21,6 +21,7 @@ function Header() {
         <img
           className="header__logo"
           src="http://pngimg.com/uploads/amazon/amazon_PNG11.png"
+          alt="image2"
         />
       </Link>
 
